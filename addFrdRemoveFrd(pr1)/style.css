@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    width: 100%;
+}
+
+body{
+    background-color: #9AD1D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    margin: 40px;
+    height: 480px;
+    width: 330px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    transition: .1s ease;
+
+
+}
+
+#card img{
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    object-position: center;
+    transition: .2s ease all;
+    cursor: pointer;
+    /* animation-name: example;
+    animation-duration: 4s; */
+
+}
+
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  } */
+
+#card img:hover{
+    transform:scale(1.1);
+    z-index: 1;
+}
+
+#card h1{
+    font-size: 35px;
+    padding: 5px;
+    
+   
+
+}
+
+#card h3{
+    font-size: 30px;
+    padding: 20px;
+    color: red;
+   
+}
+
+.btn-container{
+    display: flex;
+    margin-left: 20px;
+}
+
+#card Button{
+   
+    height: 40px;
+    width: 160px;
+    padding: 12px 20px;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    
+    
+    
+}
+
+/* #remove{
+    position: absolute;
+    left: 580px;
+    margin: 3px;
+    background-color: #ffc300;
+    color: #fff;
+    font-weight: bold;
+    margin: 40px;
+    
+}
+
+#remove:hover{
+    background-color: #ffd60a;
+} */
+
+
+
+#add{
+    position: absolute;
+    right: 660px;
+    margin: 3px;
+    background-color: #001d3d;
+    color: #fff;
+    font-weight: bold;
+    margin: 15px;
+    
+   
+}
+
+#add:hover{
+    background-color: #003566;
+}
